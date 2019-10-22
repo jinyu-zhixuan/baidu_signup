@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+    
+}
+th,td {
+    padding: 5px 40px;
+    background-color: #1a8bb9;
+}
+th {
+    color: #fff;
+}
+tr:nth-child(2n+1) td{
+    background-color: #fff;
+}
+tr:nth-child(2n) td{
+    background-color: #A1CDFD;
+}
+table tr .price {
+    background-color: #E5263E;
+}

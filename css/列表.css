@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.TuWen ul {
+    float: left;
+    width: 510px;
+    height: 405px;
+    padding: 10px;
+    /* background-color: bisque; */
+    border: 1px solid #333;
+}
+.TuWen li {
+    /* float: left; */
+    height: 45px;
+    width: 510px;
+    /* list-style: none; */
+    line-height: 40px;
+    font-size: 17px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.TuWen li a {
+    text-decoration: none;
+    color: #333;
+
+}
+.TuWen li a:hover {
+    color: #0c82ff;
+}
+.TuWen .TuWen-top {
+    width: 510px;
+    height: 145px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    white-space: normal;
+}
+.TuWen li img {
+    float: left;
+    margin-right: 18px;
+}
+.TuWen li p {
+    float: left;
+    width: 225px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.Video {
+    float: left;
+    width: 400px;
+    height: 290px;
+    background-color: bisque;
+    margin-left: 10px;
+}
+.Video .Video-top {
+    height: 110px;
+    background-color: #000;
+    padding: 10px 10px 0;
+}
+.Video .Video-top li {
+    background-color: #0f0;
+    width: 185px;
+    height: 100px;
+    float: left;
+}
+/* 列表 */
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+}
+th,td {
+    width: 75px;
+    height: 50px;
+    text-align: center;
+}
